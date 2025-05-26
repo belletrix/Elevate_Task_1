@@ -25,9 +25,11 @@ nmap -sn 192.168.233.0/24
 Once the active hosts were identified, a full TCP scan was performed on all ports using the following command:
 
 nmap -p- -sS 192.168.233.X
+
 Replace 192.168.233.X with the IP address of the discovered live host(s).
 
 -p- flag scans all 65535 TCP ports.
+
 -sS performs a SYN scan (stealth scan).
 
 Conclusion
